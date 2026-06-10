@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+source /usr/lib/bashio/bashio
+
 # Wczytaj opcje z konfiguracji addona (HA dostarcza przez /data/options.json)
 GIT_REMOTE=$(bashio::config 'git_remote')
 GIT_BRANCH=$(bashio::config 'git_branch')
