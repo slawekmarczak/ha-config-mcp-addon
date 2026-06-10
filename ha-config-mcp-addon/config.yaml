@@ -1,6 +1,6 @@
 name: "HA Config MCP"
 description: "MCP Server for Home Assistant config file access with diff+approval and git commit/push"
-version: "1.0.0"
+version: "1.0.1"
 slug: "ha_config_mcp"
 init: false
 arch:
